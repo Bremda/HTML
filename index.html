@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Formulário</title>
+	</head>
+		<body>
+		<form action="" method="GET">
+		<fieldset>
+			<legend>Dado de Endereço</legend>
+				<table width="400" border="0">
+					<tr>
+						<td>
+							<label>
+								Nome:
+							</label>
+						</td>
+						<td>
+							<input type="text" name="txt_nome" size="40" placeholder="Digite o nome" size="30">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>
+								Data de Nascimento:
+							</label>
+						</td>
+						<td>
+							<input type="date" name="dt_nasc">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>
+								Estado:
+							</label>
+						</td>
+						<td>
+							<select name="Estado">
+							<option value="">&nbsp;</option>
+							<option value="rs">Rio Grande do Sul</option>
+							<option value="sp">São Paulo</option>
+							</select>
+						</td>
+					</tr>
+
+					<tr>
+						<td>Imagem de perfil:</td>
+						<td>
+							<input type="file" name="file_page">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>
+								E-mail
+							</label>
+						</td>
+						<td>
+							<input type="email" name="pass" size="20" placeholder="email">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>
+								Senha:
+							</label>
+						</td>
+						<td>
+							<input type="password" name="pass" placeholder="senha">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>
+								Sexo:
+							</label>
+						</td>
+						<td>
+							<input type="radio" name="rdb_sexo" id="rdb_sexo" value="masculino">
+							<label>
+								Masculino
+							</label>
+							<input type="radio" name="rdb_sexo" id="rdb_sexo" value="feminino">
+							<label>
+								Feminino
+							</label>
+							</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+						<center>
+							<input type="submit" name="btn_enviar" value="Enviar">
+							<input type="reset" name="btn_limpar" value="Limpar">
+						</center>
+							
+						</td>
+					</tr>
+				</table>
+		</fieldset>
+			
+		</form>
+
+		</body>
+</html>
