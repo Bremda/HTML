@@ -1,0 +1,83 @@
+
+
+body{
+	
+	font-family: verdana, arial;
+	
+}
+
+.pagina{
+	background-color: white;
+
+}
+.top{
+	background-color:black;
+	font-family: verdana,arial;
+	width: 1400px;
+	height: 300px;
+	position: absolute;
+
+}
+
+.menu{
+	background-color: #000000;
+	font-family: verdana,arial;
+	width: 1500px;
+	height: 50px;	
+	position: absolute;
+	top: 300px;
+
+}
+.menu ul {
+	list-style: none;
+	padding: 6px 22px;
+	margin-top: 25px;
+	left: 300px;
+
+}
+.menu li{
+	display: inline;
+
+}
+.menu a{
+	font-family: verdana,arial;
+	color: white;
+	text-decoration: none;
+	padding: 5px 67px;
+
+}
+
+.conteudo{
+}
+
+.box1{
+	width: 150px;
+	height: 300px;
+	background-image: url(https://placekitten.com/150/300);
+	position: absolute;
+	top: 400px;
+	left: 300px;
+}
+.box2{
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	top: 400px;
+	left: 455px;
+}
+.box3{
+	width: 150px;
+	height: 300px;
+	background-image: url(https://placekitten.com/150/300);
+	position: absolute;
+	top: 400px;
+	left: 700px;}
+.box4{
+	width: 200px;
+	height: 300px;
+
+	position: absolute;
+	top: 400px;
+	left: 855px;
+}
+}
